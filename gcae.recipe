@@ -1,0 +1,7 @@
+bootstrap: docker
+From: nvcr.io/nvidia/tensorflow:20.09-tf2-py3
+
+%help
+
+%setup
+    pip3 install docopt
